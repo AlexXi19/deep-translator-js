@@ -1,10 +1,13 @@
 {
   "name": "deep-translator-js",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "tsc"
   },
   "keywords": [],
   "author": "",
